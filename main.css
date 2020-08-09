@@ -345,11 +345,14 @@ section:nth-child(2n + 1) {
 
 .portfolio-image-container {
     max-width: 300px;
+    height: 250px;
     overflow: hidden;
     margin: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 5px;
+    border-style: dotted;
 }
 
 .portfolio-image-container img {
@@ -365,7 +368,7 @@ section:nth-child(2n + 1) {
     height: 100%;
     color: transparent;
     text-align: center;
-    padding: 10px;
+    padding: 10px;   
 }
 
 .portfolio-image-container:hover {
